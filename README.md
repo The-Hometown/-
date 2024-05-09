@@ -27,7 +27,7 @@ DES 和 3DES 算法密码核，基于串口通信将硬件加密集成于本平�
 QT       += serialport
 INCLUDEPATH += boost_1_58_0的路径，路径加双引号
 ```
-4. 利用编译器 x86-windows-msvc2019-pe-64bit 进行构建即可。注意：若遇到编译器 x86-windows-msvc2019-pe-64bit 不可用，解决方法：配置构建套件（kit），双击 Desktop（x86-windows-msvc2019-pe-64bit），在 Qt version 中选择 Qt 5.14.2 MSVC2017 64bit。即可使用编译器进行构建。
+4. 利用编译器 x86-windows-msvc2019-pe-64bit 进行构建即可。注意：若遇到编译器 x86-windows-msvc2019-pe-64bit 不可用，解决方法：配置构建套件（kit），双击 Desktop（x86-windows-msvc2019-pe-64bit），在 Qt version 中选择 Qt 5.14.2 MSVC2017 64bit。即可使用编译器Desktop（x86-windows-msvc2019-pe-64bit）进行构建。
 
 #### 参与贡献
 
