@@ -6,8 +6,8 @@ DES 和 3DES 算法密码核，基于串口通信将硬件加密集成于本平�
 
 #### 软件架构
 软件架构说明
-软件首先进行了密码算法后端代码的开发，开发的软件密码算法包括AES、DES，3DES、RSA、RC4、ZUC、SM2、SM3、SM4。硬件密码核包括AES、DES、3DES。
-接着在Qt Creator进行前端设计。
+软件首先进行了密码算法后端代码的开发，开发的软件密码算法包括 AES、DES，3DES、RSA、RC4、ZUC、SM2、SM3、SM4。硬件密码核包括 AES、DES、3DES。
+接着在 Qt Creator 进行前端设计。
 
 
 #### 软硬件支持
@@ -15,19 +15,19 @@ DES 和 3DES 算法密码核，基于串口通信将硬件加密集成于本平�
 1.  下载 Visual Studio 2019
 2.  下载 Qt Creator 5.14.2
 3.  下载 Vivado 2021 （如需使用硬件加解密需要下载，不使用则无需下载）
-4.  准备一块 BASYS 3 的FPGA开发板。（如需使用硬件加解密需要准备，不使用则无需准备）
+4.  准备一块 BASYS 3 的 FPGA 开发板。（如需使用硬件加解密需要准备，不使用则无需准备）
 
 #### 使用说明
 
 1.  将仓库中的所有文件下载到一个文件夹中，路径中不要包含中文
-2.  下载boost_1_58_0
-3.  双击.pro文件在Qt Creator中打开项目，在项目中添加如下两行代码：
+2.  下载 boost_1_58_0
+3.  双击.pro文件在 Qt Creator 中打开项目，在项目中添加如下两行代码：
 
 ```
 QT       += serialport
 INCLUDEPATH += boost_1_58_0的路径，路径加双引号
 ```
-4. 利用编译器x86-windows-msvc2019-pe-64bit进行构建即可。注意：若遇到编译器x86-windows-msvc2019-pe-64bit不可用，解决方法：配置构建套件（kit），双击Desktop（x86-windows-msvc2019-pe-64bit），在Qt version中选择Qt 5.14.2 MSVC2017 64bit。即可使用编译器进行构建。
+4. 利用编译器 x86-windows-msvc2019-pe-64bit 进行构建即可。注意：若遇到编译器 x86-windows-msvc2019-pe-64bit 不可用，解决方法：配置构建套件（kit），双击 Desktop（x86-windows-msvc2019-pe-64bit），在 Qt version 中选择 Qt 5.14.2 MSVC2017 64bit。即可使用编译器进行构建。
 
 #### 参与贡献
 
