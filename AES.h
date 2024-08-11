@@ -1,11 +1,11 @@
-﻿#ifndef AES_H
+#ifndef AES_H
 #define AES_H
 
 /**************************************************
  * project name: AES
  * author: wang binbin
  * completion time: 2024.3.26
- *************************************************/
+ ************************************************* /
 
 
 #include<iostream>
