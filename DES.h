@@ -1,11 +1,11 @@
-﻿#ifndef DES_H
+#ifndef DES_H
 #define DES_H
 
 /**************************************************
  * project name: DES
  * author: wang binbin
  * completion time: 2024.4.15
- *************************************************/
+ ************************************************* /
 
 
 #pragma once
