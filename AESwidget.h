@@ -4,7 +4,7 @@
 #include "mainwindow.h"
 #include "AES.h"
 
-using namespace std; 
+using namespace std;
 
 namespace Ui { class AESwidget; }
 
