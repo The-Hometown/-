@@ -1,4 +1,4 @@
-﻿#include "DESwidget.h"
+#include "DESwidget.h"
 #include "ui_DESwidget.h"
 
 #include <QFileDialog>
@@ -13,7 +13,7 @@ DESwidget::DESwidget(QWidget *parent):
     ui->setupUi(this);
 
     #if _MSC_VER >= 1600
-    #pragma execution_character_set("utf-8")   // 解决中文乱码问题
+    #pragma execution_character_set("utf-8")   // 解决中文乱码问 题
     #endif
 
     ui->progressBar->setRange(0, 100); // 设置进度条的范围从0到100
