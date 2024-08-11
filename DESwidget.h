@@ -1,10 +1,10 @@
-﻿#ifndef DESWIDGET_H
+#ifndef DESWIDGET_H
 #define DESWIDGET_H
 
 #include "mainwindow.h"
 #include "DES.h"
 
-using namespace std;
+using namespace std; 
 
 namespace Ui { class DESwidget; }
 
