@@ -4,7 +4,7 @@
 #include "mainwindow.h"
 #include "DES.h"
 
-using namespace std; 
+using namespace std;
 
 namespace Ui { class DESwidget; }
 
