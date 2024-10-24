@@ -7,7 +7,7 @@
 using namespace std;
 
 namespace Ui { class DESwidget; }
-//
+
 class DESwidget : public QWidget
 {
     Q_OBJECT
