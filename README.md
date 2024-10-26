@@ -27,7 +27,12 @@ DES 和 3DES 算法密码核，基于串口通信将硬件加密集成于本平�
 QT       += serialport
 INCLUDEPATH += boost_1_58_0的路径，路径加双引号
 ```
-4. 利用编译器 x86-windows-msvc2019-pe-64bit 进行构建即可。注意：若遇到编译器 x86-windows-msvc2019-pe-64bit 不可用，解决方法：配置构建套件（kit），双击 Desktop（x86-windows-msvc2019-pe-64bit），在 Qt version 中选择 Qt 5.14.2 MSVC2017 64bit。即可使用编译器Desktop（x86-windows-msvc2019-pe-64bit）进行构建。
+4. 配置构建套件，点击 Qt 左边索引栏的“项目”，点击 Manage Kits，点击默认的那个套件，然后选择编译器，在Compiler 中选择 C：Microsoft Visual C++ Compiler (x86)，C++：Microsoft Visual C++ Compiler (x86)，应用保存。在项目 Build & Run 中，添加当前的默认套件，点击构建运行即可。
+
+本人目前构建套件的情况如下，可供大家参考：
+第一种：点击 Qt 左边索引栏的“项目”，点击 Manage Kits，点击 Desktop Qt 5.14.2 MSVC2017 32bit，在 Compiler 中选择 C：Microsoft Visual C++ Compiler (x86)，C++：Microsoft Visual C++ Compiler (x86)，应用保存。在项目 Build & Run 中，添加 Desktop Qt 5.14.2 MSVC2017 32bit，点击构建运行即可。
+第二种：点击 Qt 左边索引栏的“项目”，点击 Manage Kits，点击 x86-windows-msvc2019-pe-64bit，在 Compiler 中选择 C：Microsoft Visual C++ Compiler (x86)，C++：Microsoft Visual C++ Compiler (x86)，应用保存。在项目 Build & Run 中，添加x86-windows-msvc2019-pe-64bit，点击构建运行即可。注意：若遇到编译器 x86-windows-msvc2019-pe-64bit 不可用，解决方法：配置构建套件（kit），双击 Desktop（x86-windows-msvc2019-pe-64bit），在 Qt version 中选择 Qt 5.14.2 MSVC2017 64bit。即可使用编译器Desktop（x86-windows-msvc2019-pe-64bit）进行构建。
+
 
 #### 参与贡献
 
